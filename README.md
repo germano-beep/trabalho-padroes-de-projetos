@@ -1,2 +1,2 @@
-# trabalho-padr-o-de-projetos
+# trabalho-padrao-de-projetos
 barbearia
