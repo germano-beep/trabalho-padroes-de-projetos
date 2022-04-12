@@ -1,4 +1,4 @@
-package barbearia.Model;
+package barbearia.model;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

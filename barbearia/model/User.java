@@ -1,4 +1,4 @@
-package barbearia.Model;
+package barbearia.model;
 
 public class User extends People {
 

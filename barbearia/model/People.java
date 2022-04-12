@@ -1,4 +1,4 @@
-package barbearia.Model;
+package barbearia.model;
 
 abstract class People {
     

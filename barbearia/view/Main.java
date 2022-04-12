@@ -1,9 +1,9 @@
 package barbearia.view;
 
-import barbearia.Model.Client;
-import barbearia.Model.Schedule;
-import barbearia.Model.Service;
-import barbearia.Model.User;
+import barbearia.model.Client;
+import barbearia.model.Schedule;
+import barbearia.model.Service;
+import barbearia.model.User;
 /**
  * @author flaviane ferrares
  */
