@@ -8,19 +8,25 @@ abstract class People {
     protected String telefone;
     protected String email;
     protected String rg;
+    protected String endereco;
+
     
-    public People(int id, String nome) {
+    public People(int id, String nome, char sexo, String telefone, String endereco) {
         this.id = id;
         this.nome = nome;
+        this.sexo = sexo;
+        this.telefone = telefone;
+        this.endereco = endereco;
     }
 
-    public People(int id, String nome, char sexo, String telefone, String email, String rg) {
+    public People(int id, String nome, char sexo, String telefone, String email, String rg, String endereco) {
         this.id = id;
         this.nome = nome;
         this.sexo = sexo;
         this.telefone = telefone;
         this.email = email;
         this.rg = rg;
+        this.endereco = endereco;
     }
 
     public int getId() {
@@ -70,6 +76,15 @@ abstract class People {
     public void setRg(String rg) {
         this.rg = rg;
     }
+
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
+    }
+
     
 
 }

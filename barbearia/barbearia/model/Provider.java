@@ -3,12 +3,14 @@ package barbearia.model;
 public class Provider extends People {
 
     private String cnpj;
-    private String endereco;
-
-    public Provider(int id, String nome, char sexo, String telefone, String email, String rg, String cnpj, String endereco) {
-        super(id, nome, sexo, telefone, email, rg);
+    
+    public Provider(int id, String nome, char sexo, String telefone, String email, String rg, String endereco, String cnpj) {
+        super(id, nome, sexo, telefone, email, rg, endereco);
         this.cnpj = cnpj;
-        this.endereco = endereco;
+    }
+
+    public void setCnpj(String cnpj) {
+        this.cnpj = cnpj;
     }
 
     public String getCnpj() {
@@ -22,9 +24,5 @@ public class Provider extends People {
     public void setEndereco(String endereco) {
         this.endereco = endereco;
     }
-
-    
-    
-    
     
 }
