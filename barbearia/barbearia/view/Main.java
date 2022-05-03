@@ -1,9 +1,5 @@
 package barbearia.view;
-
-import barbearia.model.abstract_factory.BioExtratusProdutosLinhaFactory;
-import barbearia.model.abstract_factory.ProdutosLinhaFactory;
-import barbearia.model.abstract_factory.product.Shampoo;
-import model.servicos.RafaelFactory;
+import barbearia.model.*;
 
 /**
  * @author flaviane ferrares
@@ -12,16 +8,11 @@ import model.servicos.RafaelFactory;
 public class Main {
     
     public static void main(String[] args) {
-        
-        ProdutosLinhaFactory fabr01 = new BioExtratusProdutosLinhaFactory();
-        Shampoo shamp01 = fabr01.createShampoo();
-
-        System.out.println(shamp01.getNome());
-        System.out.println(shamp01.getPreco());
-
 
         ServicoInterfFactory fabr02 = new RafaelFactory();
         Corte cort01 = fabr02.createCorte();
+
+        System.out.println(cort01);
 
 
     }

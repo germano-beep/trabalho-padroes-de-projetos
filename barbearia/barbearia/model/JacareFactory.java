@@ -1,15 +1,6 @@
-package model.servicos;
+package barbearia.model;
 
-import model.servicos.servicos.Barba;
-import model.servicos.servicos.Corte;
-import model.servicos.servicos.Pezinho;
-import model.servicos.servicos.Pigmentacao;
-import model.servicos.servicos.Sombrancelha;
-import model.servicos.servicos.ServicosJacare.BarbaJ;
-import model.servicos.servicos.ServicosJacare.CorteJ;
-import model.servicos.servicos.ServicosJacare.PezinhoJ;
-import model.servicos.servicos.ServicosJacare.PigmentacaoJ;
-import model.servicos.servicos.ServicosJacare.SombrancelhaJ;
+
 
 public class JacareFactory implements ServicoInterfFactory {
 

@@ -1,6 +1,5 @@
-package model.servicos.servicos.ServicosJacare;
+package barbearia.model;
 
-import model.servicos.servicos.Barba;
 
 public class BarbaJ implements Barba {
     double preco = 15.00;

@@ -1,6 +1,5 @@
-package model.servicos.servicos.ServicosRafael;
+package barbearia.model;
 
-import model.servicos.servicos.Sombrancelha;
 
 public class SombrancelhaR implements Sombrancelha {
     double preco = 5.00;

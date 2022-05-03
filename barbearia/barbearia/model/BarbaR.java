@@ -1,6 +1,5 @@
-package model.servicos.servicos.ServicosRafael;
+package barbearia.model;
 
-import model.servicos.servicos.Barba;
 
 public class BarbaR implements Barba {
     

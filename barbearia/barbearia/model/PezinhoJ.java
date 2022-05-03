@@ -1,6 +1,4 @@
-package model.servicos.servicos.ServicosJacare;
-
-import model.servicos.servicos.Pezinho;
+package barbearia.model;
 
 public class PezinhoJ implements Pezinho {
     double preco = 8.00;

@@ -1,9 +1,6 @@
-package model.servicos.servicos.ServicosRafael;
+package barbearia.model;
 
-import model.servicos.servicos.Pigmentacao;
-
-public class PigmentacaoR implements Pigmentacao {
-        
+public class SombrancelhaJ implements Sombrancelha {
     double preco = 10.00;
 
     public double getPreco() {

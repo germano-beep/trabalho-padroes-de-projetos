@@ -1,4 +1,4 @@
-package model.servicos.servicos;
+package barbearia.model;
 
 public interface Sombrancelha {
 }

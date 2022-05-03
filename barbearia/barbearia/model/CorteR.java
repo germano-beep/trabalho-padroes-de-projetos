@@ -1,6 +1,5 @@
-package model.servicos.servicos.ServicosRafael;
+package barbearia.model;
 
-import model.servicos.servicos.Corte;
 
 public class CorteR implements Corte {
         

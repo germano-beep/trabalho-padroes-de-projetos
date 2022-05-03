@@ -1,6 +1,5 @@
-package model.servicos.servicos.ServicosJacare;
+package barbearia.model;
 
-import model.servicos.servicos.Pigmentacao;
 
 public class PigmentacaoJ implements Pigmentacao {
     double preco = 40.00;

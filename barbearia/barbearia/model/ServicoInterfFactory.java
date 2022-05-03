@@ -1,4 +1,4 @@
-package model.servicos;
+package barbearia.model;
 
 public interface ServicoInterfFactory {
 

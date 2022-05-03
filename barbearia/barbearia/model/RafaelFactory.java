@@ -1,15 +1,5 @@
-package model.servicos;
+package barbearia.model;
 
-import model.servicos.servicos.Barba;
-import model.servicos.servicos.Corte;
-import model.servicos.servicos.Pezinho;
-import model.servicos.servicos.Pigmentacao;
-import model.servicos.servicos.Sombrancelha;
-import model.servicos.servicos.ServicosRafael.BarbaR;
-import model.servicos.servicos.ServicosRafael.CorteR;
-import model.servicos.servicos.ServicosRafael.PezinhoR;
-import model.servicos.servicos.ServicosRafael.PigmentacaoR;
-import model.servicos.servicos.ServicosRafael.SombrancelhaR;
 
 public class RafaelFactory implements ServicoInterfFactory {
 

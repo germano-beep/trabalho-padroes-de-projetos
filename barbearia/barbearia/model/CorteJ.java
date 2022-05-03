@@ -1,6 +1,6 @@
-package model.servicos.servicos.ServicosJacare;
+package barbearia.model;
 
-import model.servicos.servicos.Corte;
+
 
 public class CorteJ implements Corte {
     double preco = 20.00;
